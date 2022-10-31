@@ -28,6 +28,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  font-family: sans-serif;
 }
 
 a {
@@ -45,14 +46,22 @@ video {
 // base rules
 // ==================================== */
 
-.row + .row {
-  margin-top: 16px;
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+
+h1 {
+  text-align: center;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+article {
+  padding: 20px 0px;
 }
